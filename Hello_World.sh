@@ -4,8 +4,8 @@
 
 # This is my first try of the bash programming
 # There are few points which I would like to point out
-# the command on the top is called as sheband1 this command
-# sheband1 instructs the operating system to run the bash from
+# the command on the top is called as shebang1 this command
+# shebang1 instructs the operating system to run the bash from
 # the path /bin/bash
 #
 # furthermore, the file we have created can be executed using the command
