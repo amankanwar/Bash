@@ -1,0 +1,19 @@
+#!/bin/bash
+
+###########################################################################
+# Author- Aman Kanwar
+#
+# With this file name it is clear that the given bash script
+# Need not to have the .sh extention, you may see the file name
+# 
+# File name is example2, since for real production, we may omit
+# the use of .sh extension, since we are writing bash script not sh script
+# Howevr, we are required to provide execute permissions for the given
+# file in order to execute the program
+#
+# Hence, run the following command before doing the ./example2
+# First run, $- chmod +x example2
+############################################################################
+
+
+echo "This is a normal file without .sh extension"
