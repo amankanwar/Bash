@@ -1,0 +1,26 @@
+#!/usr/bin/env bash
+
+# this bash script has been written and edited into windows
+# environment, hence running it directly into the Linux Bash
+# will cause errors, hence we are required to run the given command
+# which will remove the special character (unwanted) from the script
+# $- dos2unix string1
+
+
+# This is the implementation with the portable use of the shebang
+
+
+# we need to make sure that there is no space around the # operator
+# in case we are using the space around the # operator then we will be 
+# getting the error "source_file.sh: line 10: my_Var: command not found"
+
+# Hence, the use of
+# my_Var= "Hello world"
+# my_Var ="Hello world"
+# my_Var = "Hello world"
+# 
+# is invalid
+
+my_Var ="Hello world"
+
+printf "mesage is %s" "$my_Var"
